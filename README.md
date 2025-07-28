@@ -15,7 +15,5 @@
 
 ![This is an alt text.](https://www.5.ua/media/pictures/original/225699.jpg?t=1628082848 "This is a sample image.")
 
-## Links
-
-This is my  [Git](https://github.com/DooAn)
+## This is my  [Git](https://github.com/DooAn)
 
