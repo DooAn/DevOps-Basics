@@ -13,7 +13,7 @@
 
 ## I love CAT
 
-![This is an alt text.](https://www.5.ua/media/pictures/original/225699.jpg?t=1628082848 "This is a sample image.")
+![This is an alt text.](https://i.pinimg.com/736x/e3/6f/3f/e36f3f58c004bfb257b67638521d9e6b.jpg)
 
 ## This is my  [Git](https://github.com/DooAn)
 
