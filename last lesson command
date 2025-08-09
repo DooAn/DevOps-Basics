@@ -1,0 +1,32 @@
+# SSH
+
+* ssh-keygen -t ed25519 — generates a new SSH key of type ed25519.
+
+* ls -al | grep git — lists all files and filters the output for lines containing “git”.
+
+* cat git.pub — displays the content of the public key file git.pub.
+
+* nano ~/.ssh/config — opens the SSH configuration file in the nano text editor.
+
+* ssh -T git@github.com — tests the SSH connection to GitHub.
+
+* mkdir -p ~/.ssh — creates the .ssh directory if it doesn’t exist.
+
+* chmod 700 ~/.ssh — sets permissions on the .ssh folder to be accessible only by the owner.
+
+* mv ~/git ~/.ssh/git — moves your private SSH key file git to the .ssh folder.
+
+* mv ~/git.pub ~/.ssh/git.pub — moves your public SSH key git.pub to the .ssh folder.
+
+* nano ~/.ssh/config — edits the SSH config file again to update settings.
+
+* ssh-keyscan github.com >> ~/.ssh/known_hosts — adds GitHub’s host key to the list of known/trusted hosts.
+
+* chmod 644 ~/.ssh/known_hosts — sets permissions on the known_hosts file to be readable by everyone but writable only by the owner.
+
+* eval "$(ssh-agent -s)" — starts the SSH agent in the current shell session.
+
+* ssh-add ~/.ssh/git — adds your private SSH key to the SSH agent.
+
+* ssh -T git@github.com — tests the SSH connection again to confirm it works.
+
